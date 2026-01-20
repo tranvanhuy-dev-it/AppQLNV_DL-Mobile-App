@@ -61,7 +61,6 @@ public partial class ChangePasswordPage : ContentPage
             // Xóa trắng các ô nhập
             txtOldPass.Text = txtNewPass.Text = txtConfirmPass.Text = string.Empty;
 
-            // Quay lại trang trước đó
             await Navigation.PopAsync();
         }
     }
