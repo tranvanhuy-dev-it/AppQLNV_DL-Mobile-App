@@ -71,7 +71,6 @@ public partial class ChangePasswordPage : ContentPage
         {
             using (HttpClient client = new HttpClient())
             {
-                // Thay đổi link theo link ngrok hiện tại của bạn
                 string apiUrl = $"https://arlinda-rimy-andria.ngrok-free.dev/api/Employees/change-password/{id}";
 
                 var data = new { OldPassword = oldP, NewPassword = newP };
