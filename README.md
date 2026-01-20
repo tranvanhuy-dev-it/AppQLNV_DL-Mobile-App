@@ -29,16 +29,19 @@ The frontend is developed using **.NET MAUI** with the **MVVM pattern**, respons
 - Search and filter employees
 - Add / edit / delete employee information
 
-### 📋 Job Assignment
+### Job Assignment
 - Create and manage job tasks
 - Assign tasks to employees
 - Track task status (Pending / In Progress / Completed)
 
-### 🧑‍💼 Customer Features
+### Customer Features
 - Customer account registration and login
 - View available services
 - Place job requests directly through the app
 - Track assigned jobs and job status
+
+---
+
 ## Technologies
 - **.NET MAUI**
 - **XAML**
@@ -46,6 +49,9 @@ The frontend is developed using **.NET MAUI** with the **MVVM pattern**, respons
 - **CommunityToolkit.Mvvm**
 - **HttpClient**
 - **RESTful API**
+
+---
+  
 ## Folder Structure
 - Views/       
 - ViewModels/   
